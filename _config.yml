@@ -1,0 +1,93 @@
+---
+booktitle: Proceedings of Large Foundation Models for Educational Assessment
+shortname: FM-EduAssess2024
+year: '2024'
+volume: '264'
+start: &1 2024-12-15
+end: 2024-12-16
+published: 2025-01-28
+sections:
+- name: Preface
+  title: Preface
+- name: Contributed Papers
+  title: Contributed Papers
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: FM-EduAssess2024
+month: 0
+cycles: false
+bibtex_editor: Li, Sheng and Cui, Zhongmin and Lu, Jiasen and Harris, Deborah and
+  Jing, Shumin
+editor:
+- given: Sheng
+  family: Li
+- given: Zhongmin
+  family: Cui
+- given: Jiasen
+  family: Lu
+- given: Deborah
+  family: Harris
+- given: Shumin
+  family: Jing
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of Large Foundation Models for Educational Assessment
+    Held in Vancouver, BC, Canada on 15-16 December 2024
+
+  Published as Volume 264 by the Proceedings of Machine Learning Research on 28 January 2025.
+
+  Volume Edited by:
+    Sheng Li
+    Zhongmin Cui
+    Jiasen Lu
+    Deborah Harris
+    Shumin Jing
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 15--16 Dec
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v264"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v264
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v264
+email: ''
+conference:
+  name: Large Foundation Models for Educational Assessment
+  url: https://neurips2024edu.github.io/
+  location: Vancouver, BC, Canada
+  dates:
+  - *1
+  - 2024-12-16
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v264/FMEduAssess2024_corrected.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v264/FMEduAssess2024_corrected.bib
